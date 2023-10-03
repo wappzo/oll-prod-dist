@@ -8804,3 +8804,7 @@ ngb-typeahead-window.dropdown-menu {
   .viewAssignment{
     min-height: 70vh;
 }
+
+.underline {
+    text-decoration: underline;
+}
