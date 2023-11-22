@@ -769,6 +769,8 @@ span.float-right.share {
     border-radius: 5px;
 }
 
+.table-menu-btn:focus,
+.btn:focus,
 .course.card {
     box-shadow: none;
 }
@@ -934,9 +936,9 @@ span.float-right.share {
     background: #b2141a !important;
 }
 
-.btn:focus {
+/* .btn:focus {
     box-shadow: none !important;
-}
+} */
 
 .modal-footer {
     background: #2073b2;
@@ -2603,9 +2605,9 @@ p.ative-status-lbl {
     margin-right: 2px;
 }
 
-.table-menu-btn:focus {
+/* .table-menu-btn:focus {
     box-shadow: none;
-}
+} */
 
 .dropdown-toggle.table-menu-btn::after {
     content: none;
@@ -8617,6 +8619,7 @@ ngb-typeahead-window.dropdown-menu {
 
 .notEditable {
     pointer-events: none;
+    opacity: 0.7;
 }
 
 .perClass {
@@ -8805,6 +8808,31 @@ ngb-typeahead-window.dropdown-menu {
     min-height: 70vh;
 }
 
+.top-0{
+top: 0px !important;
+}
+.ml-25{
+    margin-left: 25%;
+}
+
+.h-100vh {
+    height: 100vh !important
+}
+.h-80vh {
+    height: 80vh !important
+}
+
+.mt-14px {
+    margin-top: 14px !important;
+}
+
+.no-shadow{
+    box-shadow: none;
+}
 .underline {
     text-decoration: underline;
+}
+
+.bordered{
+    border: 1px solid lightgray;
 }
