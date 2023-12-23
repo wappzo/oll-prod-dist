@@ -4269,6 +4269,9 @@ figure.course-figure {
 }
 
 @media screen and (max-width: 767px) {
+    .mt-sm-3{
+        margin-top: 2rem;
+    }
     .blogDesc {
         font-size: 14px;
         font-family: "Poppins-Regular";
