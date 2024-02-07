@@ -8869,6 +8869,6 @@ top: 0px !important;
     background: #F5F5F5;
 }
 
-.dropdown-toggle:after{
+.countryCode .dropdown-toggle:after{
     display: none;
 }
