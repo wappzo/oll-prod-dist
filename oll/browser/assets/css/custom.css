@@ -8868,3 +8868,7 @@ top: 0px !important;
 .bg-f5{
     background: #F5F5F5;
 }
+
+.dropdown-toggle:after{
+    display: none;
+}
