@@ -852,6 +852,10 @@ span.float-right.share {
     font-family: Arial;
     color: #707070;
 }
+.arialText img{
+    height: 20px;
+    width: 20px;
+}
 
 .foterWrapper {
     /* box-shadow: 0px -6px 12px #0000000a;
@@ -8742,7 +8746,7 @@ ngb-typeahead-window.dropdown-menu {
 
 .callMsg {
     position: fixed;
-    bottom: 60px;
+    bottom: 100px;
     right: 0px;
     background-color: #D9D9D9;
     border-top-left-radius: 20px;
@@ -8757,6 +8761,17 @@ ngb-typeahead-window.dropdown-menu {
 
 .callMsg img {
     width: 20px;
+}
+
+.expertContact {
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    /* background-color: #D9D9D9; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 11;
 }
 
 .batchCerty {
@@ -8886,4 +8901,8 @@ ngb-typeahead-window.dropdown-menu {
 
 .br-50 {
     border-radius: 50%;
+}
+
+.ratio-1{
+    aspect-ratio: 1;
 }
