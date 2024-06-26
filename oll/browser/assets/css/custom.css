@@ -8956,3 +8956,10 @@ label{
 .bg-skillTitan{
     background-color: #f7f7f7;
 }
+.skillTitanLogo{
+    max-width: 300px;
+}
+
+.z-1{
+z-index: 1;
+}
