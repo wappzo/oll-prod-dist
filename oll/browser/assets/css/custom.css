@@ -852,7 +852,8 @@ span.float-right.share {
     font-family: Arial;
     color: #707070;
 }
-.arialText img{
+
+.arialText img {
     height: 20px;
     width: 20px;
 }
@@ -8192,6 +8193,10 @@ ngb-typeahead-window.dropdown-menu {
     width: 20% !important;
 }
 
+.h-25px {
+    height: 25px;
+}
+
 .h-30x {
     height: 30px !important;
 }
@@ -8498,6 +8503,18 @@ ngb-typeahead-window.dropdown-menu {
 
 .mt-6rem {
     margin-top: 6rem !important;
+}
+
+.mb-6rem {
+    margin-bottom: 6rem !important;
+}
+
+.mt-10rem {
+    margin-top: 10rem !important;
+}
+
+.mb-10rem {
+    margin-bottom: 10rem !important;
 }
 
 @media screen and (min-width: 1680px) {
@@ -8900,7 +8917,7 @@ ngb-typeahead-window.dropdown-menu {
     background: #F5F5F5;
 }
 
-.countryCode .dropdown-toggle:after{
+.countryCode .dropdown-toggle:after {
     display: none;
 }
 
@@ -8908,8 +8925,12 @@ ngb-typeahead-window.dropdown-menu {
     border-radius: 50%;
 }
 
-.ratio-1{
+.ratio-1 {
     aspect-ratio: 1;
+}
+
+.text-boxDiv {
+    color: #bb2223
 }
 
 .boxDiv {
@@ -8918,17 +8939,18 @@ ngb-typeahead-window.dropdown-menu {
     background-color: #ffffff;
 }
 
-label{
+label {
     margin: 0px;
 }
 
-.form-select{
+.form-select {
     padding: .375rem .75rem !important;
 }
 
-.errorDiv{
+.errorDiv {
     position: relative;
-    p{
+
+    p {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -8945,21 +8967,34 @@ label{
     border-color: #0C961A;
 }
 
-.min-h-85vh{
+.min-h-85vh {
     min-height: 85vh;
 }
 
-.min-h-100vh{
+.min-h-100vh {
     min-height: 100vh;
 }
 
-.bg-skillTitan{
+.bg-skillTitan {
     background-color: #f7f7f7;
 }
-.skillTitanLogo{
+
+.skillTitanLogo {
     max-width: 300px;
 }
 
-.z-1{
+.z-1 {
     z-index: 1;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.max-h-90vh {
+    max-height: 90vh;
 }
