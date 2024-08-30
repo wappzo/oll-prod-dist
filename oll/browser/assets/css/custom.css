@@ -8736,6 +8736,10 @@ ngb-typeahead-window.dropdown-menu {
     min-width: auto !important;
 }
 
+.ff-auto{
+    font-family: auto;
+}
+
 .ff-playfair-bold {
     font-family: "Playfair-Bold" !important;
 }
