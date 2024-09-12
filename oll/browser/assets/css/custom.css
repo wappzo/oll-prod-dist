@@ -2783,6 +2783,16 @@ input.phone-number[type="number"] {
     background-color: #b2141a;
 }
 
+.btn-blue,
+.btn-blue:focus,
+.btn-blue:hover,
+.btn-blue:active {
+    /* background: #da2128; */
+    background: rgba(34, 38, 74, 1);
+    color: white;
+    /* border-color: #da2128; */
+}
+
 .btn-dark-gray {
     background: #2E2E2E;
     color: #ffffff;
@@ -8245,6 +8255,15 @@ ngb-typeahead-window.dropdown-menu {
 .br-15 {
     border-radius: 15px !important;
 }
+.br-top-15 {
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.br-bottom-15 {
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
 
 .br-top-10 {
     border-top-right-radius: 10px !important;
@@ -8969,6 +8988,7 @@ label {
 
 .btn-green,
 .btn-green:focus,
+.btn-green:hover,
 .btn-green:active {
     background: #0C961A;
     color: white;
@@ -9005,4 +9025,17 @@ label {
 
 .max-h-90vh {
     max-height: 90vh;
+}
+
+.bottom-m-1{
+    bottom: -1px;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.bg-light-trans{
+    /* background-color: #ffffff8c; */
+    background-color: #ffffff90;
 }
