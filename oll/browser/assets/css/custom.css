@@ -6047,6 +6047,9 @@ input[type="text"]:focus {
 /* vikas css start */
 
 @media screen and (min-width: 768px) {
+    .br-md-40 {
+        border-radius: 40px !important;
+    }
     .dtext-right {
         text-align: right;
     }
@@ -7451,7 +7454,7 @@ ngb-typeahead-window.dropdown-menu {
     }
 
     .mtext-1rem {
-        font-size: 1rem !important;
+        font-size: 1.3rem !important;
     }
 
     .course-card {
@@ -8207,8 +8210,20 @@ ngb-typeahead-window.dropdown-menu {
     height: 25px;
 }
 
-.h-30x {
+.h-30px {
     height: 30px !important;
+}
+
+.h-35px {
+    height: 35px !important;
+}
+
+.h-40px {
+    height: 40px !important;
+}
+
+.h-50px {
+    height: 50px !important;
 }
 
 .w-30x {
@@ -8219,6 +8234,9 @@ ngb-typeahead-window.dropdown-menu {
     width: 30% !important;
 }
 
+.w-35x {
+    width: 35px !important;
+}
 .w-35 {
     width: 35% !important;
 }
@@ -8255,6 +8273,7 @@ ngb-typeahead-window.dropdown-menu {
 .br-15 {
     border-radius: 15px !important;
 }
+
 .br-top-15 {
     border-top-right-radius: 15px !important;
     border-top-left-radius: 15px !important;
@@ -8270,8 +8289,16 @@ ngb-typeahead-window.dropdown-menu {
     border-top-left-radius: 10px !important;
 }
 
+.br-20 {
+    border-radius: 20px !important;
+}
+
 .br-30 {
     border-radius: 30px !important;
+}
+
+.br-40 {
+    border-radius: 40px !important;
 }
 
 .nxt-btn {
@@ -8395,6 +8422,9 @@ ngb-typeahead-window.dropdown-menu {
 }
 
 @media (max-width: 767px) {
+    .br-sm-12 {
+        border-radius: 12px !important;
+    }
     .whatsappbtn {
         position: fixed;
         bottom: 20px;
@@ -8755,7 +8785,7 @@ ngb-typeahead-window.dropdown-menu {
     min-width: auto !important;
 }
 
-.ff-auto{
+.ff-auto {
     font-family: auto;
 }
 
@@ -8928,12 +8958,24 @@ ngb-typeahead-window.dropdown-menu {
     border: 1px solid lightgray;
 }
 
+.w-20px {
+    width: 20px;
+}
+
 .w-25px {
     width: 25px;
 }
 
 .w-40px {
     width: 40px;
+}
+
+.w-50px {
+    width: 50px;
+}
+
+.w-90px {
+    width: 90px;
 }
 
 .bg-eb {
@@ -8954,6 +8996,10 @@ ngb-typeahead-window.dropdown-menu {
 
 .ratio-1 {
     aspect-ratio: 1;
+}
+
+.ratio_1_5 {
+    aspect-ratio: 1.5 !important;
 }
 
 .text-boxDiv {
@@ -9027,15 +9073,37 @@ label {
     max-height: 90vh;
 }
 
-.bottom-m-1{
+.bottom-m-1 {
     bottom: -1px;
 }
 
-.bottom-0{
+.bottom-0 {
     bottom: 0;
 }
 
-.bg-light-trans{
+.bg-light-trans {
     /* background-color: #ffffff8c; */
     background-color: #ffffff90;
+}
+
+.w-content{
+    width: fit-content;
+}
+
+.ar-1 {
+    aspect-ratio: 1;
+}
+
+.ar-2 {
+    aspect-ratio: 2;
+}
+
+.top-50{
+    top: 50%;
+}
+.left-50{
+    left: 50%;
+}
+.translate-middle{
+    transform: translate(-50%, -50%);
 }
