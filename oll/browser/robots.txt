@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://www.oll.co/sitemap.xml
-Sitemap: https://www.oll.co/sitemap-news.xml
