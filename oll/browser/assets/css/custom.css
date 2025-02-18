@@ -8231,6 +8231,10 @@ ngb-typeahead-window.dropdown-menu {
     width: 20% !important;
 }
 
+.h-20px {
+    height: 20px;
+}
+
 .h-25px {
     height: 25px;
 }
@@ -8249,6 +8253,10 @@ ngb-typeahead-window.dropdown-menu {
 
 .h-50px {
     height: 50px !important;
+}
+
+.h-100px {
+    height: 100px !important;
 }
 
 .w-30x {
@@ -8986,7 +8994,7 @@ ngb-typeahead-window.dropdown-menu {
 }
 
 .w-20px {
-    width: 20px;
+    width: 20px !important;
 }
 
 .w-25px {
@@ -9093,6 +9101,10 @@ label {
     z-index: 1;
 }
 
+.z-2 {
+    z-index: 2;
+}
+
 .left-0 {
     left: 0;
 }
@@ -9186,4 +9198,8 @@ label {
 
 agm-map {
     height: 500px;
+  }
+
+  .justify-items-center{
+    justify-items: center;
   }
