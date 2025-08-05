@@ -225,6 +225,18 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/assets/font/Roboto-Regular.ttf") format("truetype");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Roboto-SemiBold";
+  src: url("/assets/font/Roboto_SemiCondensed-SemiBold.ttf") format("truetype");
+  font-display: fallback;
+}
+
 body,
 html {
   margin: 0;
